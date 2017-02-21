@@ -1,0 +1,81 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelServer", "TCPModelServer\TCPModelServer.vcproj", "{822E2648-086B-4C4B-8317-92FDBC6CFFF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D} = {D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelClient", "TCPModelClient\TCPModelClient.vcproj", "{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelServerSelect", "TCPModelServerSelect\TCPModelServerSelect.vcproj", "{2A6B4F3A-58FA-4CDC-89BC-267E5BF389A1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelAsyncSelect", "TCPModelAsyncSelect\TCPModelAsyncSelect.vcproj", "{FD746EC4-722E-4968-826B-AAC50446D075}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelEventSelect", "TCPModelEventSelect\TCPModelEventSelect.vcproj", "{50F969B9-CE90-42E7-A093-9AC15D165854}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelEventIO", "TCPModelEventIO\TCPModelEventIO.vcproj", "{334A4B28-8B0C-4DE5-AC41-9D4597B232FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelCompletionROUTINEIO", "TCPModelCompletionROUTINEIO\TCPModelCompletionROUTINEIO.vcproj", "{DBB9F565-E76A-45AC-A63B-6DAE90620B18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPModelCompletionPort", "TCPModelCompletionPort\TCPModelCompletionPort.vcproj", "{D479FCC8-7651-4AAC-83A7-69033130EF30}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{822E2648-086B-4C4B-8317-92FDBC6CFFF4}.Debug.ActiveCfg = Debug|Win32
+		{822E2648-086B-4C4B-8317-92FDBC6CFFF4}.Debug.Build.0 = Debug|Win32
+		{822E2648-086B-4C4B-8317-92FDBC6CFFF4}.Release.ActiveCfg = Release|Win32
+		{822E2648-086B-4C4B-8317-92FDBC6CFFF4}.Release.Build.0 = Release|Win32
+		{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}.Debug.ActiveCfg = Debug|Win32
+		{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}.Debug.Build.0 = Debug|Win32
+		{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}.Release.ActiveCfg = Release|Win32
+		{D7B51C05-88B2-4EB3-8ED5-728E0BAAE27D}.Release.Build.0 = Release|Win32
+		{2A6B4F3A-58FA-4CDC-89BC-267E5BF389A1}.Debug.ActiveCfg = Debug|Win32
+		{2A6B4F3A-58FA-4CDC-89BC-267E5BF389A1}.Debug.Build.0 = Debug|Win32
+		{2A6B4F3A-58FA-4CDC-89BC-267E5BF389A1}.Release.ActiveCfg = Release|Win32
+		{2A6B4F3A-58FA-4CDC-89BC-267E5BF389A1}.Release.Build.0 = Release|Win32
+		{FD746EC4-722E-4968-826B-AAC50446D075}.Debug.ActiveCfg = Debug|Win32
+		{FD746EC4-722E-4968-826B-AAC50446D075}.Debug.Build.0 = Debug|Win32
+		{FD746EC4-722E-4968-826B-AAC50446D075}.Release.ActiveCfg = Release|Win32
+		{FD746EC4-722E-4968-826B-AAC50446D075}.Release.Build.0 = Release|Win32
+		{50F969B9-CE90-42E7-A093-9AC15D165854}.Debug.ActiveCfg = Debug|Win32
+		{50F969B9-CE90-42E7-A093-9AC15D165854}.Debug.Build.0 = Debug|Win32
+		{50F969B9-CE90-42E7-A093-9AC15D165854}.Release.ActiveCfg = Release|Win32
+		{50F969B9-CE90-42E7-A093-9AC15D165854}.Release.Build.0 = Release|Win32
+		{334A4B28-8B0C-4DE5-AC41-9D4597B232FF}.Debug.ActiveCfg = Debug|Win32
+		{334A4B28-8B0C-4DE5-AC41-9D4597B232FF}.Debug.Build.0 = Debug|Win32
+		{334A4B28-8B0C-4DE5-AC41-9D4597B232FF}.Release.ActiveCfg = Release|Win32
+		{334A4B28-8B0C-4DE5-AC41-9D4597B232FF}.Release.Build.0 = Release|Win32
+		{DBB9F565-E76A-45AC-A63B-6DAE90620B18}.Debug.ActiveCfg = Debug|Win32
+		{DBB9F565-E76A-45AC-A63B-6DAE90620B18}.Debug.Build.0 = Debug|Win32
+		{DBB9F565-E76A-45AC-A63B-6DAE90620B18}.Release.ActiveCfg = Release|Win32
+		{DBB9F565-E76A-45AC-A63B-6DAE90620B18}.Release.Build.0 = Release|Win32
+		{D479FCC8-7651-4AAC-83A7-69033130EF30}.Debug.ActiveCfg = Debug|Win32
+		{D479FCC8-7651-4AAC-83A7-69033130EF30}.Debug.Build.0 = Debug|Win32
+		{D479FCC8-7651-4AAC-83A7-69033130EF30}.Release.ActiveCfg = Release|Win32
+		{D479FCC8-7651-4AAC-83A7-69033130EF30}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		ServerSocketInit.h = ServerSocketInit.h
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
